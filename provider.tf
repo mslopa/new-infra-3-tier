@@ -2,12 +2,11 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-terraform {
+erraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = "5.84.0"
+      source = "hashicorp/aws"
+      version = "6.27.0"
     }
   }
 }
-
