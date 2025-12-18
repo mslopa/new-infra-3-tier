@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-north-1"
 }
-erraform {
+terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
